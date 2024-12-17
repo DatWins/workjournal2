@@ -6,7 +6,7 @@ languageCode = "en"
 # Choose one of emacs, trac or perldoc
 pygmentsStyle = "monokai"
 theme = "gokarna"
-title = "Gokarna"
+title = "A Very Stable Milking Stool"
 
 [params]
   avatarAltText = "avatar"
@@ -34,19 +34,19 @@ title = "Gokarna"
     </script>
   """
 
-  description = "Sky above, sand below and peace within"
-  footer = "The Marauders"
+  description = "Feeding all The Mermaids. With all The Kebabs."
+  footer = "A Very Stable Milking Stool"
   metaKeywords = ["blog", "gokarna", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
 
   socialIcons = [
     {name = "twitter", url = "https://example.com"},
-    {name = "linkedin", url = "https://example.com"},
-    {name = "stackoverflow", url = "https://example.com"},
-    {name = "dribbble", url = "https://example.com"},
-    {name = "instagram", url = "https://example.com"},
+  #  {name = "linkedin", url = "https://example.com"},
+  #  {name = "stackoverflow", url = "https://example.com"},
+  #  {name = "dribbble", url = "https://example.com"},
+  #  {name = "instagram", url = "https://example.com"},
     {name = "twitch", url = "https://example.com"},
-    {name = "email", url = "mailto:example@example.com"}
+    {name = "email", url = "mailto:stool@stablemilkingstool.co.uk"}
   ]
 
 [menu]
@@ -62,11 +62,11 @@ title = "Gokarna"
     url = "/posts/"
     weight = 2
 
-  [[menu.main]]
-    name = "Projects"
-    pre = "<span data-feather='code'></span>"
-    url = "/projects/"
-    weight = 3
+  #[[menu.main]]
+  #  name = "Projects"
+  #  pre = "<span data-feather='code'></span>"
+  #  url = "/projects/"
+  #  weight = 3
 
   [[menu.main]]
     name = "Tags"
@@ -74,17 +74,17 @@ title = "Gokarna"
     url = "/tags/"
     weight = 4
 
-  [[menu.main]]
-    identifier = "github"
-    pre = "<span data-feather='github'></span>"
-    url = "https://github.com/gokarna-theme/gokarna-hugo"
-    weight = 5
+  #[[menu.main]]
+  #  identifier = "github"
+  #  pre = "<span data-feather='github'></span>"
+  #  url = "https://github.com/gokarna-theme/gokarna-hugo"
+  #  weight = 5
 
-  [[menu.main]]
-    identifier = "buymeacoffee"
-    pre = "<span data-feather='coffee'></span>"
-    url = "https://www.buymeacoffee.com/avijitgupta"
-    weight = 6
+  #[[menu.main]]
+  #  identifier = "buymeacoffee"
+  #  pre = "<span data-feather='coffee'></span>"
+  #  url = "https://www.buymeacoffee.com/avijitgupta"
+  #  weight = 6
 
   [[menu.main]]
     identifier = "rss"
