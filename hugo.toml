@@ -1,4 +1,4 @@
-baseURL = "https://comfy-croquembouche-49537f.netlify.app/public/"
+baseURL = "https://comfy-croquembouche-49537f.netlify.app/"
 defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
