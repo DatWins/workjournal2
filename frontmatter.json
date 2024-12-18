@@ -7,9 +7,9 @@
       "previewPath": null,
       "fields": [
         {
-          "title": "date",
-          "name": "date",
-          "type": "datetime"
+          "title": "title",
+          "name": "title",
+          "type": "string"
         },
         {
           "title": "description",
@@ -17,14 +17,14 @@
           "type": "string"
         },
         {
-          "title": "lastmod",
-          "name": "lastmod",
+          "title": "date",
+          "name": "date",
           "type": "datetime"
         },
         {
-          "title": "showTableOfContents",
-          "name": "showTableOfContents",
-          "type": "boolean"
+          "title": "preview",
+          "name": "preview",
+          "type": "string"
         },
         {
           "title": "tags",
@@ -32,18 +32,13 @@
           "type": "tags"
         },
         {
-          "title": "title",
-          "name": "title",
-          "type": "string"
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
         },
         {
           "title": "type",
           "name": "type",
-          "type": "string"
-        },
-        {
-          "title": "preview",
-          "name": "preview",
           "type": "string"
         }
       ]
@@ -69,5 +64,9 @@
       "body": "[]",
       "isMediaSnippet": true
     }
-  }
+  },
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.git.enabled": false,
+  "frontMatter.preview.host": "http://localhost:1313"
 }
