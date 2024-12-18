@@ -9,4 +9,4 @@ categories:
     - Hugo
 type: post
 ---
-![](/images/hugo-github-netlify.png)
+![Hugo+Github+Netlify](/images/hugo-github-netlify.png 'Hugo+Github+Netlify')
