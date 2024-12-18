@@ -4,7 +4,7 @@ FROM python:alpine
 RUN apk add font-inconsolata fontconfig
 RUN fc-cache -fv
 
-WORKDIR /app
+WORKDIR /
 
 # Install dependencies
 RUN apk add firefox geckodriver hugo
