@@ -1,4 +1,5 @@
 baseURL = "/"
+canonifyURLs = true
 defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
@@ -7,6 +8,10 @@ languageCode = "en"
 pygmentsStyle = "monokai"
 theme = "gokarna"
 title = "A Very Stable Milking Stool"
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
 
 [params]
   avatarAltText = "avatar"
@@ -36,16 +41,18 @@ title = "A Very Stable Milking Stool"
 
   description = "Feeding all The Mermaids. With all The Kebabs."
   footer = "A Very Stable Milking Stool"
-  metaKeywords = ["blog", "gokarna", "hugo"]
+  # metaKeywords = ["blog", "gokarna", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
 
   socialIcons = [
-    {name = "twitter", url = "https://example.com"},
-  #  {name = "linkedin", url = "https://example.com"},
-  #  {name = "stackoverflow", url = "https://example.com"},
-  #  {name = "dribbble", url = "https://example.com"},
-  #  {name = "instagram", url = "https://example.com"},
-    {name = "twitch", url = "https://example.com"},
+    {name = "bluesky", url = "https://bsky.app/profile/stablemilkingstool.co.uk"},
+    {name = "x", url = "https://x.com/MonkeyOfStool"},
+    {name = "youtube", url = "https://www.youtube.com/@AVeryStableMilkingStool"},
+    {name = "twitch", url = "https://www.twitch.tv/verystablemilkingstool"},
+    {name = "discord", url = "https://discord.gg/NDRWjgZkqp"},
+    {name = "reddit", url = "https://www.reddit.com/user/MilkingStool/"},
+    {name = "amazon", url = "https://www.amazon.co.uk/hz/wishlist/ls/1KXIMI7XMSWLS?ref_=wl_share"},
+    {name = "paypal", url = "https://paypal.me/JonesHoward"},
     {name = "email", url = "mailto:stool@stablemilkingstool.co.uk"}
   ]
 
@@ -56,7 +63,7 @@ title = "A Very Stable Milking Stool"
     url = "/"
     weight = 1
 
-  [[menu.main]]
+   [[menu.main]]
     name = "Posts"
     pre = "<span data-feather='book'></span>"
     url = "/posts/"
