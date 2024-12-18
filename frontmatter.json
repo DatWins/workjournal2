@@ -40,6 +40,16 @@
           "title": "type",
           "name": "type",
           "type": "string"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "showTableOfContents",
+          "name": "showTableOfContents",
+          "type": "boolean"
         }
       ]
     }
