@@ -6,7 +6,6 @@ lastmod: 2024-12-18
 preview: /images/Screenshot.jpeg
 showTableOfContents: false
 tags:
-    - New Phone
     - Hugo
     - Static
     - Github
