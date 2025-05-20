@@ -1,5 +1,4 @@
 ---
----
 title: Essential Items
 date: 2025-05-14
 draft: false
