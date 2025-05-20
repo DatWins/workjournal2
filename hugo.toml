@@ -72,7 +72,7 @@ target = 'static/images'
 
    [[menu.main]]
     name = "Tasks"
-    pre = "<span data-feather='tag'></span>"
+    pre = "<span data-feather='check-circle'></span>"
     url = "/Tasks/"
     weight = 4  
 
