@@ -54,7 +54,7 @@ target = 'static/images'
 
   [[menu.main]]
     name = "Posts"
-    pre = "<span data-feather='book'></span>"
+    pre = "<span data-feather='message-circle'></span>"
     url = "/posts/"
     weight = 2
 
@@ -71,10 +71,22 @@ target = 'static/images'
     weight = 3
 
    [[menu.main]]
+    name = "Categories"
+    pre = "<span data-feather='server'></span>"
+    url = "/categories/"
+    weight = 4  
+
+   [[menu.main]]
     name = "Tasks"
     pre = "<span data-feather='check-circle'></span>"
     url = "/Tasks/"
-    weight = 4  
+    weight = 5  
+
+   [[menu.main]]
+    name = "Essentials"
+    pre = "<span data-feather='battery-charging'></span>"
+    url = "/Essentials/"
+    weight = 6  
 
   #[[menu.main]]
   #  identifier = "github"
