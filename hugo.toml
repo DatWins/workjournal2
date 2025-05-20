@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://euphonious-daffodil-80782f.netlify.app/"
 canonifyURLs = true
 defaultContentLanguage = "en"
 enableEmoji = true
@@ -7,7 +7,7 @@ languageCode = "en"
 # Choose one of emacs, trac or perldoc
 pygmentsStyle = "monokai"
 theme = "gokarna"
-title = "A Very Stable Milking Stool"
+title = "Work Journal"
 
 [[module.mounts]]
 source = 'images'
@@ -39,23 +39,12 @@ target = 'static/images'
     </script>
   """
 
-  description = "Feeding all The Mermaids. With all The Kebabs."
-  footer = "A Very Stable Milking Stool"
+  description = "Now how do I do this again? Let me check my notes."
+  footer = "Did ya forget something?"
   # metaKeywords = ["blog", "gokarna", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
 
-  socialIcons = [
-    {name = "bluesky", url = "https://bsky.app/profile/stablemilkingstool.co.uk"},
-    {name = "x", url = "https://x.com/MonkeyOfStool"},
-    {name = "youtube", url = "https://www.youtube.com/@AVeryStableMilkingStool"},
-    {name = "twitch", url = "https://www.twitch.tv/verystablemilkingstool"},
-    {name = "discord", url = "https://discord.gg/NDRWjgZkqp"},
-    {name = "reddit", url = "https://www.reddit.com/user/MilkingStool/"},
-    {name = "amazon", url = "https://www.amazon.co.uk/hz/wishlist/ls/1KXIMI7XMSWLS?ref_=wl_share"},
-    {name = "paypal", url = "https://paypal.me/JonesHoward"},
-    {name = "email", url = "mailto:stool@stablemilkingstool.co.uk"}
-  ]
-
+  
 [menu]
   [[menu.main]]
     name = "Home"
