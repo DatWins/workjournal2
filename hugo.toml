@@ -73,7 +73,7 @@ target = 'static/images'
    [[menu.main]]
     name = "Tasks"
     pre = "<span data-feather='tag'></span>"
-    url = "/task/"
+    url = "/Tasks/"
     weight = 4  
 
   #[[menu.main]]
