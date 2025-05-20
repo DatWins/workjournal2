@@ -74,12 +74,6 @@ target = 'static/images'
     weight = 3
 
    [[menu.main]]
-    name = "Categories"
-    pre = "<span data-feather='server'></span>"
-    url = "/categories/"
-    weight = 4  
-
-   [[menu.main]]
     name = "Tasks"
     pre = "<span data-feather='check-circle'></span>"
     url = "/Tasks/"
