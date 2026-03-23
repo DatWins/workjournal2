@@ -65,7 +65,7 @@ target = 'static/images'
     name = "Categories"
     pre = "<span data-feather='code'></span>"
     url = "/categories/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     name = "Tags"
