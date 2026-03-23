@@ -14,7 +14,7 @@ source = 'images'
 target = 'static/images'
 
 [taxonomies]
-  categories = "categories"
+  categories = "Categories"
 
 [params]
   avatarAltText = "avatar"
