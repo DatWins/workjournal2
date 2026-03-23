@@ -10,6 +10,8 @@ tags:
     - Static
     - Github
     - Netlify
+categories:
+    - computer
 type: post
 ---
 ![Hugo+Github+Netlify](/images/hugo-github-netlify.png 'Hugo+Github+Netlify')
